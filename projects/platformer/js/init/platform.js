@@ -44,7 +44,7 @@
     createPlatform(450, 535, 0.5, 0.1);
     createPlatform(600, 600, 0.4, 0.1);
     createPlatform(530, 460, 0.01);
-    createPlatform(650, 380, 0.01);
+    createPlatform(650, 350, 0.01);
     createPlatform(560, 400, 0.01);
     createPlatform(40, 230, 0.7);
     createPlatform(60, 365, 0.17, 0.101);
@@ -59,6 +59,7 @@
     createPlatform(800, 150, 0.3, 0.1);
     createPlatform(800, 50, 0.3, 0.1);
     createPlatform(480, 380, 0.01);
+    createPlatform(510, 233, 0.6, 0.001);
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
