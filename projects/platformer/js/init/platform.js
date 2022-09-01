@@ -42,7 +42,7 @@
     createPlatform(100, 600, 0.5, 0.001);
     createPlatform(750, 0, 0.01, 15);
     createPlatform(450, 535, 0.5, 0.1);
-    createPlatform(600, 600, 0.4, 0.1);
+    createPlatform(600, 600, 0.38, 0.1);
     createPlatform(530, 460, 0.01);
     createPlatform(650, 350, 0.01);
     createPlatform(560, 400, 0.01);
@@ -52,7 +52,7 @@
     createPlatform(130, 250, 0.01, 5);
     createPlatform(170, 250, 0.01, 7);
     createPlatform(190, 250, 0.01, 5);
-    createPlatform(800, 550, 0.3, 0.1);
+    createPlatform(795, 550, 0.3, 0.1);
     createPlatform(800, 450, 0.3, 0.1);
     createPlatform(800, 350, 0.3, 0.1);
     createPlatform(800, 230, 0.3, 0.5);

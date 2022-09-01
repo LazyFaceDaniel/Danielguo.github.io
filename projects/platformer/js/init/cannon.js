@@ -52,6 +52,17 @@
     createCannon("bottom", 730, 4000);
 
 
+    
+    createCannon("left", 0, 120000);
+    createCannon("left", 50, 120000);
+    createCannon("left", 100, 120000);
+    createCannon("left", 150, 120000);
+    createCannon("left", 200, 120000);
+    createCannon("left", 250, 120000);
+    createCannon("left", 300, 120000);
+    createCannon("left", 350, 120000);
+    createCannon("left", 400, 120000);
+    createCannon("left", 450, 120000);
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
