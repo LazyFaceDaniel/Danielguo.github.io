@@ -47,7 +47,7 @@
     createCannon("top", 820, 1000);
     createCannon("bottom", 810, 9000);
     createCannon("bottom", 810, 6000);
-    createCannon("right", 100, 4000);
+    createCannon("right", 95, 4000);
     createCannon("bottom", 100, 2000);
     createCannon("bottom", 730, 4000);
 
