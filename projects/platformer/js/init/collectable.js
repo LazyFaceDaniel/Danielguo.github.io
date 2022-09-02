@@ -41,7 +41,7 @@
     // example:
     createCollectable(type.steve, 60, 190, 6);
     createCollectable(type.steve, 850, -20);
-    createCollectable(type.steve, 0.5, 10);
+    createCollectable(type.steve, 60, 10);
     createCollectable(type.steve, 680, -10);
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
