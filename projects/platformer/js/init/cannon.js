@@ -55,16 +55,16 @@
 
 
     
-    createCannon("left", 0, 180000);
-    createCannon("left", 50, 180000);
-    createCannon("left", 100, 180000);
-    createCannon("left", 150, 180000);
-    createCannon("left", 200, 180000);
-    createCannon("left", 250, 180000);
-    createCannon("left", 300, 180000);
-    createCannon("left", 350, 180000);
-    createCannon("left", 400, 180000);
-    createCannon("left", 450, 180000);
+    createCannon("left", 0, 135000);
+    createCannon("left", 50, 135000);
+    createCannon("left", 100, 135000);
+    createCannon("left", 150, 135000);
+    createCannon("left", 200, 135000);
+    createCannon("left", 250, 135000);
+    createCannon("left", 300, 135000);
+    createCannon("left", 350, 135000);
+    createCannon("left", 400, 135000);
+    createCannon("left", 450, 135000);
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
