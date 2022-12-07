@@ -29,14 +29,14 @@ var init = function (window) {
             physikz.addRandomVelocity(circle, canvas);
             view.addChild(circle);
             circles.push(circle);
+            physikz.addRandomVelocity(circle, canvas, 5, 5)
         }
 
         // TODO 3 / 7 : Call the drawCircle() function 
-        drawCircle();
-        drawCircle();
-        drawCircle();
-        drawCircle();
-        drawCircle();
+        var number = prompt("How many circles do you want?");
+        for (var i = 0; i < number; i++){
+            drawCircle();
+        }
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -49,11 +49,15 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-
+            for (var q = 0; q < circles.length; q++){
+                physikz.updatePosition(circles[q]);
+            }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
-
+            for (var w = 0; w < circles.length; w++){
+                game.checkCirclePosition(circles[w]);
+            }
+            
             // TODO 9 : Iterate over the array
            
             
@@ -67,12 +71,21 @@ var init = function (window) {
         game.checkCirclePosition = function(circle) {
 
             // if the circle has gone past the RIGHT side of the screen then place it on the LEFT
+
+            // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             if ( circle.x > canvas.width ) {
                 circle.x = 0;
             }
-            
-            // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
+            if (circle.x < 0){
+                circle.x = canvas.width;
+            }
+            if (circle.y > canvas.height){
+                circle.y = 0;
+            }
+            if (circle.y < 0){
+                circle.y = canvas.height;
+            }
+            var rightEdge = circle.x + circle.radius;
 
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
